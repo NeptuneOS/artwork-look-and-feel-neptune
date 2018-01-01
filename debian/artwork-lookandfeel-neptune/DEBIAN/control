@@ -1,0 +1,10 @@
+Package: artwork-lookandfeel-neptune
+Version: 1.5
+Architecture: all
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Installed-Size: 1518
+Recommends: neptune-settings-plasma5-profile
+Section: admin
+Priority: optional
+Description: Look and Feel package for Neptune
+  This package provides the neptune look and feel package.
