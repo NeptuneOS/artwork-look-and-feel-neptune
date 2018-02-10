@@ -40,7 +40,7 @@ pger = panel.addWidget("org.kde.plasma.pager")
 
 var tm = panel.addWidget("org.kde.plasma.taskmanager")
 tm.currentConfigGroup = ["Configuration", "General"]
-tm.writeConfig("launchers" ,["file:///usr/share/applications/chromium.desktop","file:///usr/share/applications/thunderbird.desktop"])
+tm.writeConfig("launchers" ,["applications:chromium.desktop","applications:thunderbird.desktop"])
 tm.writeConfig("showOnlyCurrentDesktop", true)
 tm.writeConfig("separateLaunchers", false)
 tm.writeConfig("sortingStrategy", 1)
