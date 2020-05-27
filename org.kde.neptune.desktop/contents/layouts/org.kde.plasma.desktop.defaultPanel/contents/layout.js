@@ -40,7 +40,7 @@ pger = panel.addWidget("org.kde.plasma.pager")
 
 var tm = panel.addWidget("org.kde.plasma.icontasks")
 tm.currentConfigGroup = ["Configuration", "General"]
-tm.writeConfig("launchers" ,["file:///usr/share/applications/chromium.desktop","file:///usr/share/applications/thunderbird.desktop","file:///usr/share/applications/org.kde.dolphin.desktop","file:///usr/share/applications/org.kde.discover.desktop","file:///usr/share/applications/vlc.desktop","file:///usr/share/applications/systemsettings.desktop"])
+tm.writeConfig("launchers" ,["applications:chromium.desktop","applications:thunderbird.desktop","applications:org.kde.dolphin.desktop","applications:org.kde.discover.desktop","applications:vlc.desktop","applications:systemsettings.desktop"])
 tm.writeConfig("showOnlyCurrentDesktop", true)
 tm.writeConfig("separateLaunchers", false)
 tm.writeConfig("sortingStrategy", 1)
