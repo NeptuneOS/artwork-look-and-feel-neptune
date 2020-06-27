@@ -1,3 +1,11 @@
+artwork-lookandfeel-neptune (1.8) buster; urgency=medium
+
+  * Add Tela icon theme
+  * Add own breeze color scheme
+  * modernize look and feel
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sat, 27 Jun 2020 09:00:27 +0200
+
 artwork-lookandfeel-neptune (1.5) unstable; urgency=medium
 
   * Use thunderbird instead of icedove

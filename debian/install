@@ -1,1 +1,4 @@
 org.kde.neptune.desktop usr/share/plasma/look-and-feel/
+Tela usr/share/icons/
+Tela-dark usr/share/icons/
+color-schemes/ElementaryNeptuneBreeze.colors usr/share/color-schemes/
