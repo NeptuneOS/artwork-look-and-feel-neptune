@@ -2,13 +2,19 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Breeze
+ColorScheme=ElementaryNeptuneBreeze
 
 [kdeglobals][Icons]
-Theme=breeze
+Theme=Tela
 
 [plasmarc][Theme]
 name=breeze-dark
+
+[breezerc][Common]
+OutlineCloseButton=false
+
+[breezerc][Windeco]
+DrawBackgroundGradient=false
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors

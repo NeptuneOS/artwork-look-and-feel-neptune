@@ -25,7 +25,7 @@ if (freeEdges["bottom"] == true) {
     panel.location = "top";
 }
 
-panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 27
+panel.height = screenGeometry(panel.screen).height > 1024 ? 42 : 34
 panel.formfactor = 2
 
 var kicker = panel.addWidget("org.kde.plasma.excalibur")
@@ -34,16 +34,17 @@ kicker.writeConfig("global", "Alt+F1")
 
 kicker.currentConfigGroup = ["General"]
 kicker.writeConfig("icon", "/usr/share/pixmaps/start-kde-neptune.png")
-kicker.writeConfig("favoriteApps", ["chromium.desktop","thunderbird.desktop","org.kde.dolphin.desktop","systemsettings.desktop","libreoffice-startcenter.desktop","gimp.desktop","vlc.desktop","org.kde.konsole.desktop","kde4-apper.desktop"])
+kicker.writeConfig("favoriteApps", ["chromium.desktop","thunderbird.desktop","org.kde.dolphin.desktop","systemsettings.desktop","libreoffice-startcenter.desktop","gimp.desktop","vlc.desktop","org.kde.konsole.desktop","org.kde.discover.desktop"])
 
 pger = panel.addWidget("org.kde.plasma.pager")
 
-var tm = panel.addWidget("org.kde.plasma.taskmanager")
+var tm = panel.addWidget("org.kde.plasma.icontasks")
 tm.currentConfigGroup = ["Configuration", "General"]
-tm.writeConfig("launchers" ,["file:///usr/share/applications/chromium.desktop","file:///usr/share/applications/thunderbird.desktop"])
+tm.writeConfig("launchers" ,["applications:chromium.desktop","applications:thunderbird.desktop","applications:org.kde.dolphin.desktop","applications:org.kde.discover.desktop","applications:vlc.desktop","applications:systemsettings.desktop"])
 tm.writeConfig("showOnlyCurrentDesktop", true)
 tm.writeConfig("separateLaunchers", false)
 tm.writeConfig("sortingStrategy", 1)
+tm.writeConfig("maxStripes", 1)
 
 var systray = panel.addWidget("org.kde.plasma.systemtray")
 var systrayContainmentId = systray.readConfig("SystrayContainmentId")

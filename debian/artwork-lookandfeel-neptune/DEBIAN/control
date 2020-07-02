@@ -1,8 +1,8 @@
 Package: artwork-lookandfeel-neptune
-Version: 1.5
+Version: 1.8
 Architecture: all
 Maintainer: Leszek Lesner <leszek@zevenos.com>
-Installed-Size: 1518
+Installed-Size: 36308
 Recommends: neptune-settings-plasma5-profile
 Section: admin
 Priority: optional

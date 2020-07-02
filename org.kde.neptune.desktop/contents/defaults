@@ -25,5 +25,8 @@ LayoutName=org.kde.breeze.desktop
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
 
+[kwinrc][org.kde.kdecoration2]
+BorderSize=None
+
 [Desktop][org.kde.plasma.desktop]
 Containment=org.kde.plasma.folder
